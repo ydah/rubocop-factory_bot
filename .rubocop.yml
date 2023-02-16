@@ -55,7 +55,7 @@ Metrics/BlockLength:
 
 Naming/FileName:
   Exclude:
-    - lib/rubocop-rspec.rb
+    - lib/rubocop-factory_bot.rb
 
 Naming/InclusiveLanguage:
   Enabled: true
@@ -123,7 +123,7 @@ Style/RedundantHeredocDelimiterQuotes:
 Style/RedundantStringEscape:
   Enabled: true
 
-# Enable our own pending cops.
+# Enable pending rubocop-rspec cops.
 
 RSpec/BeEq:
   Enabled: true
@@ -142,8 +142,6 @@ RSpec/IdenticalEqualityAssertion:
 RSpec/NoExpectationExample:
   Enabled: true
 RSpec/PendingWithoutReason:
-  Enabled: true
-RSpec/RedundantAround:
   Enabled: true
 RSpec/SortMetadata:
   Enabled: true
